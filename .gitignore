@@ -1,0 +1,24 @@
+# Credentials - NEVER commit these
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Flask
+instance/
+*.sqlite3
+
+# Logs
+*.log
